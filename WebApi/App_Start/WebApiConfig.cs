@@ -11,6 +11,7 @@ namespace WebApi
         {
             // Web API configuration and services
             config.EnableCors();
+            config.EnableSystemDiagnosticsTracing();
 
             // Web API routes
             config.MapHttpAttributeRoutes();
